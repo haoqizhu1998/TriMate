@@ -1,15 +1,16 @@
 ---
 name: training-memory
-version: 0.2.0
 description: 将用户的训练、疲劳、疼痛和恢复信息整理为长期可追踪记录，并在每次记录后自动触发趋势检查。
-categories:
-  - running
-  - cycling
-  - swimming
-  - triathlon
-  - endurance
-  - memory
-  - tracking
+metadata:
+  version: "0.2.0"
+  categories:
+    - running
+    - cycling
+    - swimming
+    - triathlon
+    - endurance
+    - memory
+    - tracking
 ---
 
 # 训练记忆

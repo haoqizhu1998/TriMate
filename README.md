@@ -6,7 +6,7 @@ This public repository contains only the coach-facing capability definitions:
 
 - Agent behavior rules.
 - Endurance coaching skills.
-- Skill reference material and evaluation examples.
+- Skill reference material.
 - Public safety and license notes.
 
 It does not include internal implementation files, storage schemas, user data, deployment scripts, private integrations, Garmin tokens, or project history.
@@ -18,6 +18,7 @@ TriMate is designed for ongoing endurance training support rather than one-off g
 - Record and interpret running, cycling, swimming, strength, triathlon, and trail-running sessions.
 - Track body status such as fatigue, sleep, stress, soreness, pain, recovery, and mood.
 - Analyze single workouts using recent training and recovery context.
+- Assess running economy, pacing discipline, recovery timing, and long-duration fueling practice.
 - Review weekly and monthly trends.
 - Estimate training load, acute load, chronic load, and ACWR-style risk signals.
 - Identify injury-risk warning signs and suggest conservative next steps.
@@ -26,7 +27,7 @@ TriMate is designed for ongoing endurance training support rather than one-off g
 
 ## Included Skills
 
-- `runner-assessment`: builds the athlete profile progressively.
+- `endurance-athlete-assessment`: builds the athlete profile progressively.
 - `body-assessment`: evaluates progress, plateau, regression, fatigue, and possible overload.
 - `training-memory`: records training, body status, goals, preferences, and constraints.
 - `workout-feedback`: gives context-aware feedback on a single workout.

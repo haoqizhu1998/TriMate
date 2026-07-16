@@ -1,14 +1,15 @@
 ---
 name: endurance-athlete-assessment
-version: 0.4.0
 description: Use when a user first registers, first logs in, changes an endurance goal, or needs a basic athlete profile. Collect optional profile information progressively without blocking service; do not use for a full current-state or add-load assessment.
-categories:
-  - running
-  - cycling
-  - swimming
-  - triathlon
-  - endurance
-  - assessment
+metadata:
+  version: "0.4.0"
+  categories:
+    - running
+    - cycling
+    - swimming
+    - triathlon
+    - endurance
+    - assessment
 ---
 
 # 耐力运动员评估

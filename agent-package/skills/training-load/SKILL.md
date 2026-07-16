@@ -1,14 +1,15 @@
 ---
 name: training-load
-version: 0.1.0
 description: 根据用户训练记录、Garmin 原始数据、心率、时长和主观疲劳计算单次训练负荷、7日急性负荷、28日周均慢性负荷、ACWR 和风险等级。
-categories:
-  - running
-  - cycling
-  - swimming
-  - triathlon
-  - endurance
-  - load
+metadata:
+  version: "0.1.0"
+  categories:
+    - running
+    - cycling
+    - swimming
+    - triathlon
+    - endurance
+    - load
 ---
 
 # 训练负荷
@@ -23,9 +24,9 @@ categories:
 
 优先使用当前用户自己的数据，禁止跨用户读取：
 
-- `workout_logs`：训练日期、项目、距离、时长、心率、功率、主观疲劳。
-- `external_imports.raw_json`：Garmin 活动原始数据，例如训练负荷、训练效果、TSS 类字段。
-- `body_status_logs`：疲劳、睡眠、压力、疼痛、恢复信号，仅作为风险解释，不直接伪造成负荷分数。
+- 当前用户的训练记录：训练日期、项目、距离、时长、心率、功率、主观疲劳。
+- 宿主系统提供的设备原始活动数据：例如训练负荷、训练效果、TSS 类字段。
+- 当前用户的身体状态记录：疲劳、睡眠、压力、疼痛、恢复信号，仅作为风险解释，不直接伪造成负荷分数。
 
 ## 计算口径
 

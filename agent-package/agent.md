@@ -21,7 +21,7 @@
 
 | 意图 | 调用技能 |
 |------|-----------|
-| 首次使用、改变目标、建立档案 | `runner-assessment` |
+| 首次使用、改变目标、建立档案 | `endurance-athlete-assessment` |
 | 记录训练、记录身体状态、记录疼痛、记录目标 | `training-memory` |
 | 图片训练记录、运动 App 截图、手表截图 | 先走图片识别流程，再调用 `training-memory` / `workout-feedback` |
 | 对单次训练给反馈（配速、完成情况、疲劳） | `workout-feedback` |

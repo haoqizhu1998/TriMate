@@ -1,14 +1,15 @@
 ---
 name: body-assessment
-version: 1.0.0
 description: Use when an amateur runner, road cyclist, or triathlete asks for a current body or training-state assessment, whether they are improving, plateauing, declining, overloaded, ready to add training, or should recover. Also use before a major training-plan change when a fresh readiness decision is needed.
-categories:
-  - running
-  - cycling
-  - triathlon
-  - endurance
-  - assessment
-  - recovery
+metadata:
+  version: "1.0.0"
+  categories:
+    - running
+    - cycling
+    - triathlon
+    - endurance
+    - assessment
+    - recovery
 ---
 
 # 耐力运动身体状态评估
@@ -77,6 +78,8 @@ categories:
 - 铁三游泳优先 CSS 临界游速。
 - 没有标准负荷时，以训练时长乘主观强度估算，距离、爬升和项目作修正。
 - 比较可比测试和训练，不凭一次最佳表现判断稳定进步。
+
+跑步状态判断同时参考 `../../docs/running-coach-principles.md`，重点使用配速纪律、跑步经济性、恢复窗口和赛后恢复原则。该参考只影响跑步和铁三跑步段，不套用到骑行或游泳。
 
 能力来源按以下顺序取信：
 

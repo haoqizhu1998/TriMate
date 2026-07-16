@@ -8,7 +8,7 @@
 
 核心技能包括：
 
-- `runner-assessment`
+- `endurance-athlete-assessment`
 - `body-assessment`
 - `training-memory`
 - `workout-feedback`
@@ -19,6 +19,8 @@
 - `training-plan`
 
 `body-assessment` 专门处理“当前是否进步、是否过载、还能不能加量”等完整状态评估；它不替代首次建档、单次训练反馈或训练计划。
+
+`docs/running-coach-principles.md` 为身体评估、训练反馈、周复盘和训练计划提供统一的中长跑判断原则。
 
 这里不包含：
 

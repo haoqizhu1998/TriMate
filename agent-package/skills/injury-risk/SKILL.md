@@ -1,14 +1,15 @@
 ---
 name: injury-risk
-version: 0.2.0
 description: 识别跑步、骑行、游泳和铁三训练中的伤病风险信号，并给出保守调整建议。
-categories:
-  - running
-  - cycling
-  - swimming
-  - triathlon
-  - endurance
-  - safety
+metadata:
+  version: "0.2.0"
+  categories:
+    - running
+    - cycling
+    - swimming
+    - triathlon
+    - endurance
+    - safety
 ---
 
 # 伤病风险

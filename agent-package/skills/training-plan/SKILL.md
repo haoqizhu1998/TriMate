@@ -1,13 +1,14 @@
 ---
 name: training-plan
-version: 1.0.0
 description: Use when 用户明确要求制定、预览、调整或恢复赛事导向的长期耐力训练计划，或已有执行中计划且用户询问下一周安排。支持公路跑、公路骑行和铁人三项。
-categories:
-  - running
-  - cycling
-  - triathlon
-  - endurance
-  - planning
+metadata:
+  version: "1.0.0"
+  categories:
+    - running
+    - cycling
+    - triathlon
+    - endurance
+    - planning
 ---
 
 # 周期化训练计划
@@ -40,6 +41,7 @@ categories:
 - 计划是可调整版本，不是一次性承诺。每次新增赛事、目标、身体状态或日程变化后重新评估。
 - 每条回复最多只问一个关键问题。非安全关键缺失字段使用明确的保守默认值。
 - 不虚构数据、能力、历史或精确成功概率。
+- 跑步计划参考 `../../docs/running-coach-principles.md`。这些原则用于中长跑、公路跑和铁三跑步段，不硬套到骑行或游泳。
 
 ## 工作流
 
